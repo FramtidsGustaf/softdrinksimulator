@@ -8,7 +8,7 @@ class Title {
 		this.color = '#FFED66';
 		this.size = '5rem';
 		this.initialStyle = this.setInitialStyle();
-		this.applyInitiallStyle();
+		this.applyInitialStyle();
 		this.titleAppears();
 		this.titleDisapears();
 	}
@@ -28,7 +28,7 @@ class Title {
 	}
 
 	applyInitialStyle() {
-		Object.assign(this.titleContainer.style, this.initiallStyle);
+		Object.assign(this.titleContainer.style, this.initialStyle);
 	}
 
 	titleAppears() {
