@@ -7,13 +7,13 @@ class Title {
 		this.fontFamily = "'Modak', cursive";
 		this.color = '#FFED66';
 		this.size = '5rem';
-		this.initiallStyle = this.setInitiallStyle();
+		this.initialStyle = this.setInitialStyle();
 		this.applyInitiallStyle();
 		this.titleAppears();
 		this.titleDisapears();
 	}
 
-	setInitiallStyle() {
+	setInitialStyle() {
 		return {
 			position: 'absolute',
 			top: '50%',
@@ -27,7 +27,7 @@ class Title {
 		};
 	}
 
-	applyInitiallStyle() {
+	applyInitialStyle() {
 		Object.assign(this.titleContainer.style, this.initiallStyle);
 	}
 
